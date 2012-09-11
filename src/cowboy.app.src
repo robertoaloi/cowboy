@@ -21,6 +21,7 @@
 		kernel,
 		stdlib
 	]},
+	{included_applications, [inets, crypto]},
 	{mod, {cowboy_app, []}},
 	{env, []}
 ]}.
